@@ -1,24 +1,86 @@
 body
 {
-    background-color: lightblue;
+    background-image: url(../images/WinterSnow.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
+div
+{
+    margin: auto;
+}
+
+footer
+{
+    padding: 2%;
+    text-align: center;
+    height: 1vh;
+    font-size: 1.5em;
+    background-color: rgb(173,216,230,0);
+    margin: 0px;
+}
+
+h1
+{
+    text-align: center;
+    margin: auto;
+    color: black;
+    font-size: 4em;
+}
+
+h2
+{
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+}
+
+h3
+{
+    text-align: center;
+    margin: auto;
+    color: purple;
+}
+
+header
+{
+    background-color: rgb(173,216,230,0);
+    margin: 0px;
+    opacity: 1;
 }
 
 hr
 {
     border-color: grey;
-    border-width: 20px;
-    border-style: none;
-    border-top-style: dotted;
+    border-width: 5px;
+    border-style: groove;
     height: 0px;
-    width: 10%;
+    width: 20%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-h1
+#main
 {
-    color: purple;
+    padding-top: 1%;
+    /*background-color: lightblue;*/
 }
 
-h3
+table
 {
-    color: purple;
+    margin: auto;
+    margin-top: 1%;
+    border-collapse: collapse;
+}
+
+td,th
+{
+    margin: auto;
+    text-align: center;
+    font-size: 1.25em;
+    padding: 5px;
+    border: 1px solid black;
 }
