@@ -1,0 +1,24 @@
+body
+{
+    background-color: lightblue;
+}
+
+hr
+{
+    border-color: grey;
+    border-width: 20px;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    width: 10%;
+}
+
+h1
+{
+    color: purple;
+}
+
+h3
+{
+    color: purple;
+}
