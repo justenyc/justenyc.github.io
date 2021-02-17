@@ -19,7 +19,7 @@ footer
     text-align: center;
     height: 1vh;
     font-size: 1.5em;
-    background-color:rgb(211,211,211,0.8);
+    background-color:rgba(211, 211, 211, 0.8);
     margin: 0px;
 }
 
@@ -36,6 +36,11 @@ h2
     font-size: 3em;
     text-align: center;
     margin: auto;
+}
+
+.inner-table
+{
+    width: 100%;
 }
 
 header
@@ -64,34 +69,33 @@ hr
 
 .sample-table
 {
-    line-height: 50vh;
-    text-align: center;
-    width: 50vw;
+    line-height: auto;
+    width: 50%;
     background-color: rgb(255,255,255, 0.3);
 }
 
 .sample-table h3
 {
     font-size: 1.5em;
-    line-height: 1.5;
+    line-height: 1.5em;
     display: inline-block;
     vertical-align: middle;
 }
 
 .sample-table-image
 {
-    float: left;
     width: 50%;
+    height: auto;
 }
 
 .sample-table span
 {
-    line-height: 1.5;
+    line-height: 1.5em;
     display: inline-block;
-    height: 100%;
-    text-align: left;
-    vertical-align: middle;
-    width: 45%;
+    height: auto;
+    padding: 2%;
+    /*vertical-align: middle;*/
+    width: auto;
 }
 
 table
@@ -99,6 +103,7 @@ table
     margin: auto;
     margin-top: 1%;
     border-collapse: collapse;
+    width: 75%;
 }
 
 td,th
