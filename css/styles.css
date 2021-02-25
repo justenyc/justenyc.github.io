@@ -46,7 +46,7 @@ h2
 header
 {
     background-color: rgb(173,216,230,0);
-    margin: 0px;
+    margin: 5%;
     opacity: 1;
 }
 
@@ -61,10 +61,16 @@ hr
     margin-bottom: 2%;
 }
 
+label
+{
+    font-size: 1.5em;
+}
+
 #main
 {
     padding-top: 1%;
     background-color: rgb(173,216,230,0.8);
+    text-align: center;
 }
 
 .sample-table
