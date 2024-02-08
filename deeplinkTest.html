@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Deeplink Test</title>
+    <script>
+        var PATH = "hoame://hoame.app/deep";
+        window.onload = function(e){
+            console.log("Wassup dawg!");
+            //console.log(window.location.href.split("?")[1]);
+            var queryString = window.location.href.split("?")[1];
+            var deeplink = (`${PATH}/${queryString}/`);
+            console.log(deeplink);
+            window.location.href = deeplink;
+        }
+    </script>
+</head>
+
+<body>
+    <a href="hoame://hoame.app/deep/oasis/J1707339990/">Click me!</a>
+</body>
