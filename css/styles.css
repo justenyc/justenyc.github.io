@@ -54,10 +54,12 @@ header
 
 hr
 {
-    border-color: grey;
+    border-color: white;
     border-width: 5px;
-    border-style: groove;
+    border-style: solid;
+    border-radius: 25px;
     height: 0px;
+    opacity: 0.8;
     width: 20%;
     margin-top: 2%;
     margin-bottom: 2%;
@@ -80,9 +82,11 @@ label
 
 .sample-table
 {
+    padding-top: 5%;
+    border-bottom: 0px;
     border-radius: 25px;
     line-height: auto;
-    width: 50%;
+    width: 33%;
     background-color: rgb(255,255,255, 0.3);
 }
 
@@ -121,6 +125,7 @@ table
 
 td
 {
+    border-bottom: 1px solid black;
     height: 5vh;
     margin: auto;
     text-align: center;
@@ -130,11 +135,13 @@ td
 
 th
 {
+    border-bottom: 1px solid black;
     margin: auto;
     text-align: center;
     font-size: 1.25em;
     padding: 5px;
 }
+
 ul
 {
     line-height: 200%;
