@@ -113,18 +113,25 @@ label
 
 .navbar
 {
-    background-color: rgba(0, 0, 60, 0.3);
+    background-color: rgba(0, 0, 60);
     border-radius: 0px;
     height: 2vh;
     margin: 0px;
+    opacity: 0.1;
     position: fixed;
     top: 0;
     width: 100%;
 }
 
+.navbar:hover
+{
+    background-color: rgba(0, 0, 60);
+    opacity: 0.8
+}
+
 .navbar-anchor
 {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
 }
 
 .navbar-anchor:link
