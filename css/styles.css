@@ -153,15 +153,15 @@ label
 
 .navbar-table
 {
-    margin: auto auto auto auto;
-    width: 20%;
+    margin: auto;
+    width: 33%;
 }
 
 .navbar-table-cell
 {
-    width: auto;
     height: auto;
-    border: none;
+    text-align: center;
+    width: 33%;
 }
 
 .sample-table-bottom
