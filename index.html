@@ -9,146 +9,280 @@
 <body>
     <header style = "text-align: center;">
         <div>
-            <img style="width: 22%; margin-top: 5%;" src="images/AtTheDentist.jpg" alt="Profile Pic Goes Here">
-            <h1 style="margin-bottom: 0px; margin-top: 0px;">Justen Chong</h1>
+            <!--<img style="width: 22%; margin-top: 5%;" src="images/AtTheDentist.jpg" alt="Profile Pic Goes Here">-->
+            <br>
+            <h1 style="margin-bottom: 0px; margin-top: 5%;">Justen Chong</h1>
             <p style="margin-top: 0px; font-size: 1.5em;">Game Developer & Software Engineer</p>
         </div>
+        <div class="header-gradient"></div>
     </header>
-
+<div class="navbar">
+    <table class="navbar-table">
+        <td class="navbar-table-cell"><a href="#Work Experience" class="navbar-anchor">Work Experience</a></td>
+        <td class="navbar-table-cell"><a href="#Sample Projects" class="navbar-anchor">Sample Projects</a></td>
+        <td class="navbar-table-cell"><a href="#Skills" class="navbar-anchor">Skills</a></td>
+    </table>
+</div>
 <div id="main">
-    <hr>
+    <hr id="Work Experience">
+    <h2>Work Experience</h2>
+    <div>
+        <table style="font-size: 1em;">
+            <thead>
+                <tr>
+                    <th style="width:25%;">Year</th>
+                    <th style="width:30%;">Employer</th>
+                    <th style="width:45%;">Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Apr 2022 - Present</td>
+                    <td>ZeMind Game Studios</td>
+                    <td>Unity & Unreal Developer</td>
+                </tr>
+                <tr>
+                    <td>Jan 2021 - Apr 2022</td>
+                    <td>Pentagon Security Shutters</td>
+                    <td>Data Analyst and Backend Developer</td>
+                </tr>
+                <tr>
+                    <td>Jan 2020 - Nov 2021</td>
+                    <td>Gustin Quon</td>
+                    <td>Backend Developer/Data Analyst</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <hr id="Sample Projects">
+    <h2>Sample Projects</h2>
+    <table>
+        <tr>
+            <td class="sample-table-top">
+                <a href="https://justenc.itch.io/gmtkjam2019">
+                    <img src = "images/OSOK_TitleSq.png" class="sample-table-image">
+                </a>
+            </td>
+            <td class="sample-table-top">
+                <a href="https://justenc.itch.io/cubic-conundrum">
+                    <img src = "images/CCscreenshot.png" class="sample-table-image">
+                </a>
+            </td>
+            <td class="sample-table-top">
+                <a href="https://bmeistercd.itch.io/degradation">
+                    <img src = "images/DegradationThumb.jpg" alt = "Get Thumbnail" class="sample-table-image">
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td class="sample-table-bottom">
+                <a href="https://justenc.itch.io/gmtkjam2019">
+                    <span class="sample-table-span">
+                        <h3 class="sample-table-h3"><u>One Shot One Kill</u></h3>
+                        <br>
+                        Developed completely solo from Art to Music to Programming. Every single asset
+                        in this game was created by me. Originally a Jam Project for the GMTK2019 Jam where it
+                        ranked #576 among 2700 entrants. 
+                        <br><br>
+                    </span>
+                </a>
+            </td>
+            <td class="sample-table-bottom">
+                <a href="https://justenc.itch.io/cubic-conundrum">
+                    <span class="sample-table-span">
+                        <h3 class="sample-table-h3"><u>Cubic Conundrum</u></h3>
+                        <br>
+                        Another solo project that I originally created because my girlfriend (now wife) said that she really liked
+                        puzzle games so I figured I'd make one for her to take on the go. 
+                        <br><br>
+                    <!--<a href="https://play.google.com/store/apps/details?id=com.TripleSGames.CubicConundrumFree">Google Play Store Page</a>-->
+                    </span>
+                </a>
+            </td>
+            <td class="sample-table-bottom">
+                <a href="https://bmeistercd.itch.io/degradation">
+                    <span class="sample-table-span">
+                        <h3 class="sample-table-h3"><u>Degradation</u></h3>
+                        <br>
+                        A first person, magnetic puzzler with some stealth mechanics inspired by Metroid Prime. 
+                        All the programming was done by me with the level design and visuals done by a friend of mine. 
+                        <br><br>
+                    </span>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <hr id="Skills">
     <div>
         <h2>Skills</h2>
         <table style="width:auto;font-size: 1em;">
             <tr>
                 <th>Programming Languages</th>
+                <td>
+                    <figure class="thumbnail-cell-first">
+                        <img class="thumbnail" src="https://seeklogo.com/images/C/c-sharp-c-logo-02F17714BA-seeklogo.com.png">
+                        <figcaption>C#</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://abrudz.github.io/logos/CPlusPlus.svg">
+                        <figcaption>C++</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://abrudz.github.io/logos/Python.svg">
+                        <figcaption>Python</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/html-2752158-2284975.png?f=webp">
+                        <figcaption>HTML</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/3/3c/CSS_text_representation_%28square%29.png">
+                        <figcaption>CSS</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://abrudz.github.io/logos/JS.svg">
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://abrudz.github.io/logos/TypeScript.svg">
+                        <figcaption>TypeScript</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://www.gstatic.com/images/branding/product/2x/hh_apps_script_512dp.png">
+                        <figcaption>GAS</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://abrudz.github.io/logos/Lua.svg">
+                        <figcaption>Lua</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
+                        <figcaption>Java</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://cdn.prod.website-files.com/6371f3e94a645947f33e2581/6371f3e94a6459433b3e2cd3_61b35b5f0a3b2a7eaea65906_AWS.jpeg">
+                        <figcaption>AWS</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://neosmart.net/blog/wp-content/uploads/2019/06/dot-NET-Core.png">
+                        <figcaption>.NET</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBsxg1TBIP7wkrfekIHpR12Lxo9ZNZwFv_MA&s">
+                        <figcaption>SQL</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://devblogs.microsoft.com/directx/wp-content/uploads/sites/42/2022/10/MicrosoftTeams-image-1024x1024.jpg">
+                        <figcaption>HLSL</figcaption>
+                    </figure>
+                </td>
+            </tr>
+            <tr>
                 <th>Game Engines</th>
-                <th>Asset Editors</th>
-                <th>Other</th>
+                <td>
+                    <figure class="thumbnail-cell-first">
+                        <img class="thumbnail" src="https://i.redd.it/tu3gt6ysfxq71.png">
+                        <figcaption>Unity</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://academyclass.com/wp-content/uploads/2021/10/ACCL-Unreal-Engine-300x300.png">
+                        <!--<img class="thumbnail" src="https://cdn.prod.website-files.com/6471ebc32c5012b32f0e45ba/66a00abd1b56543acc07892f_SaR8FIKdnNUY7rurjLkvOTJ5OGEaYsqb0K7CCRV0nBI.webp">-->
+                        <figcaption>UE5</figcaption>
+                    </figure>
+                </td>
             </tr>
             <tr>
-                <td style="text-align:left;vertical-align:top;">
-                <ul>
-                    <li>C#</li>
-                    <li>C++</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Javascript</li>
-                    <li>TypeScript</li>
-                    <li>AWS</li>
-                    <li>.NET Azure</li>
-                    <li>HLSL</li>
-                    <li>SQL</li>
-                    <li>Python</li>
-                    <li>Google App Script</li>
-                </ul>
+                <th>Tools</th>
+                <td>
+                    <figure class="thumbnail-cell-first">
+                        <img class="thumbnail" src="https://1000logos.net/wp-content/uploads/2020/03/Photoshop-Logo-2015.jpg">
+                        <figcaption>Photoshop</figcaption>
+                    </figure>
                 </td>
-                <td style="text-align:left;vertical-align:top;">
-                <ul>
-                    <li>Unity</li>
-                    <li>Unreal Engine 5</li>
-                </ul>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/en/f/f2/Blender-Logo.png">
+                        <figcaption>Blender</figcaption>
+                    </figure>
                 </td>
-                <td style="text-align:left;vertical-align:top;">
-                <ul>
-                    <li>Photoshop</li>
-                    <li>Blender</li>
-                    <li>FL Studio Pro</li>
-                    <li>Audacity</li>
-                    <li>Da Vinci Resolve</li>
-                </ul>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://i.redd.it/rfa8psv281q01.png">
+                        <figcaption>FL Studio</figcaption>
+                    </figure>
                 </td>
-                <td style="text-align:left;vertical-align:top;">
-                <ul>
-                    <li>Git</li>
-                    <li>Jira</li>
-                    <li>Trello</li>
-                    <li>Miro</li>
-                </ul>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://i.pcmag.com/imagery/reviews/05r7UUqlfhfATKgQEtc1pn0-24.fit_lim.size_1050x591.v1706121435.jpg">
+                        <figcaption>Audacity</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/DaVinci_Resolve_17_logo.svg/2048px-DaVinci_Resolve_17_logo.svg.png">
+                        <figcaption>Resolve</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://book.git-scm.com/images/logos/downloads/Git-Icon-1788C.png">
+                        <figcaption>Git</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://www.pngall.com/wp-content/uploads/15/Jira-Logo-Transparent.png">
+                        <figcaption>Jira</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://cdn-icons-png.flaticon.com/512/2111/2111656.png">
+                        <figcaption>Trello</figcaption>
+                    </figure>
+                </td>
+                <td>
+                    <figure>
+                        <img class="thumbnail" src="https://files.readme.io/17d4a23-miro-logo-color-square.png">
+                        <figcaption>Miro</figcaption>
+                    </figure>
                 </td>
             </tr>
         </table>
     </div>
-    <hr>
-    <div>
-        <h2>Education</h2>
-        <table style="font-size: 1em;">
-            <tr> <th>Institution</th> <th>Certification</th></tr>
-            <tr> <td style=width:50%;> Unversity of Winnipeg <br>2019 </td> <td> Bachelor's in Comp-Sci: Information and Database Systems </td></tr>
-            <tr> <td> Unversity of Winnipeg <br>2015 </td> <td> Unity Game Design </td></tr>
-            <tr> <td> Miles Macdonell Collegiate <br>2012 </td> <td> High School/Partial IB Diploma </td></tr>
-        </table>
-    </div>
-    <hr>
-    <div>
-    <h2>Work Experience</h2>
-    <table style="font-size: 1em;">
-        <thead>
-            <tr>
-                <th style="width:25%;">Year</th>
-                <th style="width:30%;">Employer</th>
-                <th style="width:45%;">Position</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Apr 2022 - Present</td>
-                <td>ZeMind Game Studios</td>
-                <td>Unity & Unreal Developer</td>
-            </tr>
-            <tr>
-                <td>Jan 2021 - Apr 2022</td>
-                <td>Pentagon Security Shutters</td>
-                <td>Data Analyst and Backend Developer</td>
-            </tr>
-            <tr>
-                <td>Jan 2020 - Nov 2021</td>
-                <td>Gustin Quon</td>
-                <td>Backend Developer/Data Analyst/Facebook Marketing Specialist</td>
-            </tr>
-        </tbody>
-    </table>
-    </div>
-    <hr>
-    <h2>Sample Projects</h2>
-    <table>
-        <tr>
-            <td class="sample-table"><img src = "images/OSOK_TitleSq.png" class="sample-table-image">
-                <span>
-                    <h3><u>One Shot One Kill</u></h3>
-                    <br>
-                    Developed completely solo from Art to Music to Programming. Every single asset
-                    in this game was created by me. Originally a Jam Project for the GMTK2019 Jam where it
-                    ranked #576 among 2700 entrants. 
-                    <br><br>
-                    <a href="https://justenc.itch.io/gmtkjam2019">Can be played in browser here</a>
-                </span>
-            </td>
-            <td class="sample-table"><img src = "images/CCscreenshot.png" class="sample-table-image">
-                <span>
-                    <h3><u>Cubic Conundrum</u></h3>
-                    <br>
-                    Another solo project that I originally created because my girlfriend (now wife) said that she really liked
-                    puzzle games so I figured I'd make one for her to take on the go. 
-                    <br><br>
-                    <a href="https://justenc.itch.io/cubic-conundrum">Can be played in browser here</a><br>
-                    <!--<a href="https://play.google.com/store/apps/details?id=com.TripleSGames.CubicConundrumFree">Google Play Store Page</a>-->
-                </span>
-            </td>
-            <td class="sample-table"><img src = "images/DegradationThumb.jpg" alt = "Get Thumbnail" class="sample-table-image">
-                <span>
-                    <h3><u>Degradation</u></h3>
-                    <br>
-                    A first person, magnetic puzzler with some stealth mechanics inspired by Metroid Prime. 
-                    All the programming was done by me with the level design and visuals done by a friend of mine. 
-                    <br><br>
-                    <a href="https://bmeistercd.itch.io/degradation">Download here</a>
-                </span>
-            </td>
-        </tr>
-    </table>
 </div>
-    <!--<footer>
-        <a href = "https://justenc.itch.io">Itch page</a>
-    </footer>-->
+    <footer>
+        <a href = "https://www.pixil.art/art/future-city-9939a85c0c8f0f5">Gif Source</a><br>
+        <!--Credits
+        <br>
+        <a href = "https://commons.wikimedia.org/wiki/File:CSS_text_representation_%28square%29.png">CSS Logo</a>-->
+    </footer>
 </body>
