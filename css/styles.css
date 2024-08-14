@@ -125,7 +125,7 @@ label
 
 .navbar:hover
 {
-    background-color: rgba(0, 0, 60);
+    background-color: rgba(0, 0, 0, 0.5);
     opacity: 0.8
 }
 
@@ -159,6 +159,7 @@ label
 
 .navbar-table-cell
 {
+    border: none;
     height: auto;
     text-align: center;
     width: 33%;
