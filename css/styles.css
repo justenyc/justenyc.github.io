@@ -159,14 +159,17 @@ li
 .navbar-table
 {
     margin: auto;
+    height: 6vh;
     width: 33%;
 }
 
 .navbar-table-cell
 {
     border: none;
+    font-size: 1em;
     height: auto;
     text-align: center;
+    vertical-align: middle;
     width: 33%;
 }
 
