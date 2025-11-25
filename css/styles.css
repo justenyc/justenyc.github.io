@@ -1,3 +1,21 @@
+a:active
+{
+    color: yellow;
+    text-decoration: underline;
+}
+
+a:link
+{
+    color: cyan;
+    text-decoration: underline;
+}
+
+a:visited
+{
+    color:violet;
+    text-decoration: underline;
+}
+
 body
 {
     /*background-image: url(../images/anime-afternoon-city-background-cyq3gcb378sw8wgg.gif);
@@ -141,19 +159,20 @@ li
 
 .navbar-anchor:link
 {
-    text-decoration: none;
+    color: black !important;
+    text-decoration: none !important;
 }
 
 .navbar-anchor:hover
 {
-    color: cyan;
-    text-decoration: underline;
+    color: cyan !important;
+    text-decoration: underline !important;
 }
 
 .navbar-anchor:active
 {
-    color: yellow;
-    text-decoration: underline;
+    color: yellow !important;
+    text-decoration: underline !important;
 }
 
 .navbar-table
